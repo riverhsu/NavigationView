@@ -10,8 +10,13 @@ import Foundation
 import UIKit
 
 class newViewController: UIViewController{
+    
+    
+    @IBOutlet weak var vLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.vLabel.text = "You are at " + self.title!
     }
     
     override func didReceiveMemoryWarning() {

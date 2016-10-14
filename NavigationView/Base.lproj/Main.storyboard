@@ -15,8 +15,18 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQQ-qt-DUs">
+                                <frame key="frameInset" minX="16" minY="64" width="343" height="449"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">一、本平台檢測方式係由使用者自行採取樣後進行測試，其採樣、保存及操作等過程之情形，非本平台所能確認，故所得檢測結果僅供參考，無法做為判定合法與否與產品合格之結果證明。  二、使用者若以複製、影印、轉載或其他方式使用檢驗報告作為宣傳、推銷或營利等商業使用，本公司不負任何法律責任，如有損害他人權益，應自負相關責任。  三、檢驗結果僅供參考，若發現疑似添加，建議送樣至合格檢驗所再次確認。</string>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="About" id="ooP-zC-ezb">
@@ -25,7 +35,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="600" y="786"/>
+            <point key="canvasLocation" x="599.20000000000005" y="785.75712143928047"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DBk-Mu-hpX">
